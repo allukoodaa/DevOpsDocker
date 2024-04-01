@@ -1,0 +1,16 @@
+> docker run -it --rm --name secret devopsdockeruh/simple-web-service:ubuntu
+
+ctrl+p, ctrl+q
+
+> docker exec -it secret bash
+
+> tail -f ./text.log
+
+ctrl+c
+
+> exit
+
+> docker kill secret
+
+# secret message:
+'You can find the source code here: https://github.com/docker-hy'
