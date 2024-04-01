@@ -3,14 +3,12 @@
 ctrl+p, ctrl+q
 
 > docker exec -it secret bash
-
 > tail -f ./text.log
+
+# secret message:
+'You can find the source code here: https://github.com/docker-hy'
 
 ctrl+c
 
 > exit
-
 > docker kill secret
-
-# secret message:
-'You can find the source code here: https://github.com/docker-hy'
