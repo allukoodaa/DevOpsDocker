@@ -1,1 +1,2 @@
+# Image was built with the name ``web-server``
 > docker run web-server
